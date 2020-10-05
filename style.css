@@ -1,0 +1,38 @@
+.canvas {
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+#canvasHolder {
+	border: 5px solid #3a5032;
+	border-radius: 4px;
+	margin-top: 40px;
+	margin-left: auto;
+	width: 800px;
+	height: 600px;
+	margin-right: auto;
+	display: block;
+	position: relative;
+	background-image: url("./art/outdated.png");
+}
+#controls {
+	font-size: 20px;
+	font-family: "Montserrat", serif;
+	line-height: 10px;
+	text-align: center;
+	padding-bottom: 80px;
+}
+#adLeft {
+	position: absolute;
+	left: 0;
+	top: 23%;
+	height: 85%;
+	width: 15%;
+}
+#adRight {
+	position: absolute;
+	right: 0;
+	top: 23%;
+	height: 85%;
+	width: 15%;
+}
